@@ -1,0 +1,162 @@
+.nope:hover {
+  cursor: not-allowed;
+}
+.small-pics:hover {
+  transform: translateY(-50px);
+  transition: 1s;
+}
+.one-one { 
+  width: 296px;
+  display: block;
+  text-align: center;
+}
+.banner {
+  background-image: url(./img/the-beacon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 574px;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  padding-top: unset;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+}
+
+ul {
+  flex: 2;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+}
+li {
+  font-family: 'Bebas Neue', cursive;
+  padding: 20px 30px 50px 25px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 24px;
+}
+img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+
+}
+div, .top-nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.font-two {
+  font-family: 'Indie Flower', cursive;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+.font-three {
+  font-family: 'Lustria', serif;
+  font-size: 46px;
+  color: white;
+}
+.font-four {
+  font-family: 'Tenor Sans', sans-serif;
+}
+a:hover, a:link, a:active {
+  text-decoration: none;
+  color: green;
+}
+.bgc-one {
+  background-color: white;
+}
+.bgc-two {
+  background-color: black;
+}
+.hair-styles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.img-styles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  /* padding: 20px 20px 20px 20px; */
+  position: initial;
+}
+button {
+  height: 66px;
+  width: 160px;
+  align-self: center;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+h3 {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  padding-left: 90px;
+}
+footer {
+  display: flex;
+  align-items: flex-end;
+  background-color: black;
+}
+.ban {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; 
+}
+.container {
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  margin-top: -225px;
+  width: 400px;
+  height: 250px;
+}
+.container section {
+  display: none;
+  height: 100%;
+  padding: 15px;
+  background: #449df5;
+  color: #fff;
+  text-align: center;
+}
+
+.container section h1 {
+  margin-bottom: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+.container section p {
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container section label {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.5em;
+  bottom: 0;
+}
+
+.container section label:nth-child(odd) { right: 120px; }
+
+.container section label:nth-child(even) { left: 120px; }
+
+.container section > i {
+  font-size: 6em !important;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
